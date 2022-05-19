@@ -1,0 +1,25 @@
+Name: Greg Zhang
+Email: ziyangz@csu.fullerton.edu
+Class: CPSC240 Section 5
+GDB COMMANDS:
+
+b main
+b cube.cpp:19
+b volume.asm:1
+b volume.asm:97
+b volume.asm:105
+b cube.cpp:20
+r
+p/x $rbp
+c
+p/d $volume
+c
+p/x $rsp
+c
+<enter 3 values>
+p/f $xmm15.v2_double[0]
+c
+p/f $xmm12.v2_double[0]
+c
+p/x $volume
+c
